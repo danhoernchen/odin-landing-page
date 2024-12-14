@@ -18,10 +18,12 @@ nav {
 .headerLogo {
     font-size: 24px;
     font-weight: 400;
+    margin-left: 1rem;
 }
 
 .navLinks{
     margin-left: auto;
+    margin-right: 1rem;
 }
 
 .navLinks ul li {
@@ -35,7 +37,7 @@ nav {
     font-weight: 300;
     text-decoration: none;
     font-size: 20px;
-    color:#f9faf8;
+    color:#e5e7eb;
     transition: color 250ms;
 }
 
@@ -48,9 +50,9 @@ header {
     background-color: #1f2937;
     padding: 1rem;
     padding-top: 0;
-    color: #f9faf8;
+    color: #e5e7eb;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .headerImage {
@@ -67,4 +69,39 @@ header {
     text-align: left;
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
 }
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #1f2937;
+    align-items: center;
+}
+
+.images h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.images figure {
+    display: inline-block;   
+    margin: 2rem;
+    width: calc(50%/4);
+    
+
+}
+
+.images figcaption{
+    font-size: 14px;
+    text-align: center;
+    color: #6a6a6b;
+}
+
+img.scaled{
+    width: 100%;
+    border: 4px solid #3883f6;
+    border-radius: 10%;
+}
+
