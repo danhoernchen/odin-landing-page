@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -73,6 +74,8 @@ header {
 }
 
 .images {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -105,3 +108,28 @@ img.scaled{
     border-radius: 10%;
 }
 
+.quote {
+    padding: 2rem;
+    background: #e5e7eb;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    text-align: left;
+    width: 90%;
+    display: block;
+}
+
+.quote p {
+    font-weight: bold;
+    text-align: end;
+    width: 90%;
+    display: block;
+}
