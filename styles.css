@@ -133,3 +133,37 @@ img.scaled{
     width: 90%;
     display: block;
 }
+
+.callAction {
+    background-color: #3883f6;
+    color: #e5e7eb;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+.actionText h3, p {
+    margin: 0;
+}
+
+
+.callAction button {
+    background: none;
+    border: 3px solid #f9faf8;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 1% 4%;
+    margin: 0;
+    margin-left: 20%;
+}
+
+
