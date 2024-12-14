@@ -73,6 +73,17 @@ header {
     color: #f9faf8;
 }
 
+.headerButton {    
+    background: #3883f6;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 1% 4%;
+    margin: 5% 5% 0 0;
+}
+
 .images {
     margin-top: 2rem;
     margin-bottom: 2rem;
